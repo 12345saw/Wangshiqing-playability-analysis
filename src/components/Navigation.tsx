@@ -3,6 +3,7 @@
 import { Menu, Globe, X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
+import { getImagePath } from "@/lib/utils";
 
 export function Navigation() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ export function Navigation() {
 				<div className="flex items-center gap-8">
 					<button onClick={() => smoothScroll("hero")} className="flex items-center">
 						<img 
-							src="/images/TS.jpg" 
+							src={getImagePath("/images/TS.jpg")} 
 							alt="Township Logo" 
 							className="h-10 w-auto object-contain"
 						/>

@@ -62,9 +62,9 @@ export function HomePage() {
 				</div>
 				<div className="relative z-10 text-center px-4">
 					<h1 className="gold-text text-7xl md:text-9xl font-bold mb-6 tracking-wider">
-						梦想<sup className="text-3xl md:text-5xl">城镇</sup>
-						<br />
 						TOWNSHIP
+						<br />
+						<span className="text-3xl md:text-5xl">梦想城镇</span>
 					</h1>
 					<p className="text-white text-xl md:text-2xl mb-8 italic font-light tracking-wide">
 						梦想城镇 — 一款融合农场经营、城市建设和社区互动的模拟经营游戏
@@ -316,7 +316,7 @@ export function HomePage() {
 						<div className="relative">
 							<div className="w-96 h-96 mx-auto rounded-full border-4 border-[#c89b3c] overflow-hidden flex items-center justify-center bg-[#0a1428]">
 								<img
-									src={selectedFeatureItem.image}
+									src={getImagePath(selectedFeatureItem.image)}
 									alt={selectedFeatureItem.name}
 									className="w-full h-full object-cover transition-opacity duration-500"
 									key={selectedFeatureItem.id}
