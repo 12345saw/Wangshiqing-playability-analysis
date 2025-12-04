@@ -11,6 +11,7 @@ import {
 } from "@/components/RoleIcons";
 import { townshipFeatures, getFeaturesByCategory, type GameFeature } from "@/data/champions";
 import { ParticleBackground } from "@/components/ParticleBackground";
+import { getImagePath } from "@/lib/utils";
 
 const featureIcons = {
 	farming: FarmingIcon,
@@ -53,7 +54,7 @@ export function HomePage() {
 					className="absolute inset-0 bg-cover bg-center"
 					style={{
 						backgroundImage:
-							"url('/images/hero-bg.jpg')",
+							`url('${getImagePath('/images/hero-bg.jpg')}')`,
 						zIndex: 0,
 					}}
 				>
@@ -88,11 +89,11 @@ export function HomePage() {
 						</div>
 
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-							{/* 厂商背景 */}
+							{/* Manufacturer Background */}
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a]">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/playrix-company.jpg"
+										src={getImagePath("/images/playrix-company.jpg")}
 										alt="Playrix公司"
 										className="w-full h-48 object-cover"
 									/>
@@ -126,7 +127,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a]">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/township-stats.jpg"
+										src={getImagePath("/images/township-stats.jpg")}
 										alt="游戏数据表现"
 										className="w-full h-48 object-cover"
 									/>
@@ -1033,7 +1034,7 @@ export function HomePage() {
 				className="relative min-h-screen flex items-center py-20"
 				style={{
 					backgroundImage:
-						"url('/images/citybuilding.jpg')",
+						`url('${getImagePath("/images/citybuilding.jpg")}')`,
 					backgroundSize: "cover",
 					backgroundPosition: "center",
 				}}
@@ -1058,7 +1059,7 @@ export function HomePage() {
 					className="absolute inset-0 opacity-30"
 					style={{
 						backgroundImage:
-							"url('/images/citybuilding.jpg')",
+							`url('${getImagePath("/images/citybuilding.jpg")}')`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 					}}
@@ -1152,7 +1153,7 @@ export function HomePage() {
 					className="absolute inset-0 bg-cover bg-center"
 					style={{
 						backgroundImage:
-							"url('/images/farming.jpg')",
+							`url('${getImagePath("/images/farming.jpg")}')`,
 					}}
 				>
 					<div className="absolute inset-0 bg-gradient-to-b from-[#0d2438] via-black/50 to-[#0a1428]" />
@@ -1196,7 +1197,7 @@ export function HomePage() {
 				className="relative min-h-[60vh] flex items-center"
 					style={{
 						backgroundImage:
-							"url('/images/citybuilding.jpg')",
+							`url('${getImagePath("/images/citybuilding.jpg")}')`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 					}}
