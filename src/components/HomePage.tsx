@@ -388,7 +388,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden mb-4 rounded">
 								<img
-									src="/images/farming.jpg"
+									src={getImagePath("/images/farming.jpg")}
 									alt="农场经营"
 									className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -409,7 +409,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden mb-4 rounded">
 								<img
-									src="/images/citybuilding.jpg"
+									src={getImagePath("/images/citybuilding.jpg")}
 									alt="城市建设"
 									className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -541,7 +541,7 @@ export function HomePage() {
 									<div className="bg-[#0a1428]/50 p-6 rounded-lg">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/early-strategy.jpg"
+												src={getImagePath("/images/early-strategy.jpg")}
 												alt="初期策略"
 												className="w-full h-32 object-cover"
 											/>
@@ -557,7 +557,7 @@ export function HomePage() {
 									<div className="bg-[#0a1428]/50 p-6 rounded-lg">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/mid-strategy.jpg"
+												src={getImagePath("/images/mid-strategy.jpg")}
 												alt="中期发展"
 												className="w-full h-32 object-cover"
 											/>
@@ -573,7 +573,7 @@ export function HomePage() {
 									<div className="bg-[#0a1428]/50 p-6 rounded-lg">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/advanced-strategy.jpg"
+												src={getImagePath("/images/advanced-strategy.jpg")}
 												alt="高级技巧"
 												className="w-full h-32 object-cover"
 											/>
@@ -601,7 +601,7 @@ export function HomePage() {
 									<div className="space-y-4">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/farming-system.jpg"
+												src={getImagePath("/images/farming-system.jpg")}
 												alt="农场系统"
 												className="w-full h-48 object-cover"
 											/>
@@ -622,7 +622,7 @@ export function HomePage() {
 									<div className="space-y-4">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/factory-system.jpg"
+												src={getImagePath("/images/factory-system.jpg")}
 												alt="工厂系统"
 												className="w-full h-48 object-cover"
 											/>
@@ -643,7 +643,7 @@ export function HomePage() {
 									<div className="space-y-4">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/order-system.jpg"
+												src={getImagePath("/images/order-system.jpg")}
 												alt="订单系统"
 												className="w-full h-48 object-cover"
 											/>
@@ -664,7 +664,7 @@ export function HomePage() {
 									<div className="space-y-4">
 										<div className="mb-4 rounded-lg overflow-hidden">
 											<img
-												src="/images/community-system.jpg"
+												src={getImagePath("/images/community-system.jpg")}
 												alt="合作社系统"
 												className="w-full h-48 object-cover"
 											/>
@@ -808,7 +808,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden mb-4 rounded">
 								<img
-									src="/images/farming.jpg"
+									src={getImagePath("/images/farming.jpg")}
 									alt="农场经营"
 									className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -829,7 +829,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden mb-4 rounded">
 								<img
-									src="/images/citybuilding.jpg"
+									src={getImagePath("/images/citybuilding.jpg")}
 									alt="城市建设"
 									className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -864,7 +864,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a] hover:border-[#c89b3c] transition-colors">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/production-buildings.jpg"
+										src={getImagePath("/images/production-buildings.jpg")}
 										alt="生产建筑"
 										className="w-full h-40 object-cover"
 									/>
@@ -881,7 +881,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a] hover:border-[#c89b3c] transition-colors">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/community-buildings.jpg"
+										src={getImagePath("/images/community-buildings.jpg")}
 										alt="社区建筑"
 										className="w-full h-40 object-cover"
 									/>
@@ -898,7 +898,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a] hover:border-[#c89b3c] transition-colors">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/decoration-buildings.jpg"
+										src={getImagePath("/images/decoration-buildings.jpg")}
 										alt="装饰建筑"
 										className="w-full h-40 object-cover"
 									/>
@@ -954,7 +954,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a]">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/festival-events.jpg"
+										src={getImagePath("/images/festival-events.jpg")}
 										alt="节日活动"
 										className="w-full h-48 object-cover"
 									/>
@@ -972,7 +972,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a]">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/coop-competition.jpg"
+										src={getImagePath("/images/coop-competition.jpg")}
 										alt="合作社竞赛"
 										className="w-full h-48 object-cover"
 									/>
@@ -990,7 +990,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a]">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/special-challenges.jpg"
+										src={getImagePath("/images/special-challenges.jpg")}
 										alt="特殊挑战"
 										className="w-full h-48 object-cover"
 									/>
@@ -1008,7 +1008,7 @@ export function HomePage() {
 							<div className="bg-[#1a1a1a]/50 backdrop-blur-sm p-6 rounded-lg border border-[#2a2a2a]">
 								<div className="mb-4 rounded-lg overflow-hidden">
 									<img
-										src="/images/update-content.jpg"
+										src={getImagePath("/images/update-content.jpg")}
 										alt="更新内容"
 										className="w-full h-48 object-cover"
 									/>
@@ -1076,7 +1076,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden rounded-lg mb-4 shadow-lg">
 								<img
-									src="/images/farming.jpg"
+									src={getImagePath("/images/farming.jpg")}
 									alt="农场模式"
 									className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -1094,7 +1094,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden rounded-lg mb-4 shadow-lg">
 								<img
-									src="/images/production.jpg"
+									src={getImagePath("/images/production.jpg")}
 									alt="生产模式"
 									className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -1110,7 +1110,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden rounded-lg mb-4 shadow-lg">
 								<img
-									src="/images/citybuilding.jpg"
+									src={getImagePath("/images/citybuilding.jpg")}
 									alt="建设模式"
 									className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -1128,7 +1128,7 @@ export function HomePage() {
 						<div className="group cursor-pointer">
 							<div className="relative overflow-hidden rounded-lg mb-4 shadow-lg">
 								<img
-									src="/images/community.jpg"
+									src={getImagePath("/images/community.jpg")}
 									alt="社区模式"
 									className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
 								/>
@@ -1177,7 +1177,7 @@ export function HomePage() {
 					<div className="max-w-4xl mx-auto mb-12">
 						<div className="w-96 h-96 mx-auto rounded-full overflow-hidden border-4 border-[#c89b3c] mb-8 shadow-2xl shadow-[#c89b3c]/20">
 							<img
-								src="/images/farming.jpg"
+								src={getImagePath("/images/farming.jpg")}
 								alt="梦想城镇核心玩法"
 								className="w-full h-full object-cover"
 							/>
