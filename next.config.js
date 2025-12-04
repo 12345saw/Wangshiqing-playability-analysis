@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   allowedDevOrigins: ["*.preview.same-app.com"],
-  // 输出配置：确保静态文件正确输出
-  output: 'standalone',
-  // 图片配置：优化图片处理
+  // 图片配置：优化图片处理，确保在 Vercel 上正常显示
   images: {
     unoptimized: true, // 在 Vercel 上禁用图片优化，直接使用原始图片
     domains: [
@@ -41,8 +39,6 @@ const nextConfig = {
       },
     ],
   },
-  // 确保 public 目录正确服务
-  publicRuntimeConfig: {},
 };
 
 module.exports = nextConfig;
